@@ -2,6 +2,7 @@ import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitia
 import { ServerStyleSheet } from 'styled-components'
 
 
+//DocumentをMyDocumentで上書き
 export default class MyDocument extends Document {
   static async getInitialProps(
     ctx: DocumentContext,
@@ -17,6 +18,7 @@ export default class MyDocument extends Document {
         })
         const initialProps = await Document.getInitialProps(ctx)
 
+        //initialPropsとstyleを返す
         return {
           ...initialProps,
           styles: [
