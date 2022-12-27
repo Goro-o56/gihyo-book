@@ -72,3 +72,5 @@ npm install swr
 $ npm install react-content-loader
 $ npm install --save-dev @types/react-content-loader
 
+## Material Iconsの導入
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
