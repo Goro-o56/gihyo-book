@@ -53,3 +53,9 @@ $ npm run storybook
 $ n ls-remote --all
 $ sudo n version
 あたりを駆使して乗り越えろ
+
+## ReactHookForm
+フォームのバリデーションに使う
+npm install react-hook-form
+
+depの警告がでるのでnpm audit fixしてみる
