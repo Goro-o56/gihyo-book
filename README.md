@@ -47,3 +47,9 @@ $ npm install --save-dev prettier eslint typescript-eslint @typescript-eslint/es
 $ npx sb init
 $ npm install --save-dev @storybook/addon-postcss tsconfig-paths-webpack-plugin @babel/plugin-proposal-class-properties @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object tsconfig-paths-webpack-plugin @mdx-js/react
 $ npm run storybook
+
+
+## nodeでハマることがある
+$ n ls-remote --all
+$ sudo n version
+あたりを駆使して乗り越えろ
