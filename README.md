@@ -74,3 +74,6 @@ $ npm install --save-dev @types/react-content-loader
 
 ## Material Iconsの導入
 npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+
+## テスト環境構築
+npm install --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
