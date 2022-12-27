@@ -1,8 +1,6 @@
-
-import { createGlobalStyle } from 'styled-components'
-import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import { createGlobalStyle } from 'styled-components'
 
 //グローバルにスタイルを適用させる
 const GlobalStyle = createGlobalStyle`
@@ -38,17 +36,18 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <meta key="charset" name="charset" content="utf-8" />
-        <meta 
+        <meta
           key="viewport"
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=5"
-        /> 
-        <meta property="og:locale" content="ja_JP"/>
-        <meta property="og:type" content = "website"/> 
-
-      </Head> 
+        />
+        <meta property="og:locale" content="ja_JP" />
+        <meta property="og:type" content="website" />
+      </Head>
       <GlobalStyle />
-      <Component {...pageProps} /> 
+      <Component {...pageProps} />
     </>
   )
 }
+
+export default MyApp
