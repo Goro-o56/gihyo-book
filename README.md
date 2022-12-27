@@ -54,6 +54,7 @@ $ n ls-remote --all
 $ sudo n version
 あたりを駆使して乗り越えろ
 16.14.0だとStorybookのビルド通ります ✋✋✋
+<npm audit fix --force は全てが終わるのでやってはいけない>
 
 ## ReactHookForm
 フォームのバリデーションに使う
@@ -64,4 +65,10 @@ depの警告がでるのでnpm audit fixしてみる
 
 ## swr
 npm install swr
+
+## ReactContentLoader
+
+ローディングのプレースホルダーを作成できる
+$ npm install react-content-loader
+$ npm install --save-dev @types/react-content-loader
 
