@@ -61,3 +61,7 @@ npm install react-hook-form
 
 depの警告がでるのでnpm audit fixしてみる
 =>何も起きない 21個の爆弾を抱えながら進める
+
+## swr
+npm install swr
+
