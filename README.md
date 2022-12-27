@@ -53,6 +53,7 @@ $ npm run storybook
 $ n ls-remote --all
 $ sudo n version
 あたりを駆使して乗り越えろ
+16.14.0だとStorybookのビルド通ります ✋✋✋
 
 ## ReactHookForm
 フォームのバリデーションに使う
