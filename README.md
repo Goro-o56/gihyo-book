@@ -77,3 +77,14 @@ npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
 
 ## テスト環境構築
 npm install --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
+
+## JSON server
+$ git clone https://github.com/gihyo-book/ts-nextbook-json
+
+$cd ts-nextbook-json
+
+$ npm ci
+
+$ npm start
+
+$ curl -X GET -i http://localhost:8000
