@@ -208,3 +208,5 @@ const Dropdown = (props: DropdownProps) => {
     </DropdownRoot>
   )
 }
+
+export default Dropdown
