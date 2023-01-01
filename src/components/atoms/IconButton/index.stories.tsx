@@ -43,4 +43,5 @@ const Template: ComponentStory<typeof SearchIcon> = (args) => (
   </>
 )
 
+
 export const Normal = Template.bind({})

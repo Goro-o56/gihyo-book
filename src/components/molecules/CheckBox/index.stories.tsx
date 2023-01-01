@@ -32,4 +32,5 @@ const Template: ComponentStory<typeof CheckBox> = (args) => (
 )
 
 export const WithLabel = Template.bind({})
+
 WithLabel.args = { label: 'Label' }

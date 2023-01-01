@@ -20,14 +20,18 @@ export default {
       },
     },
     placeholder: {
-      control: {type: 'text'},
+
+      control: { type: 'text' },
+
       description: 'プレースホルダ',
       table: {
         type: { summary: 'string' },
       },
     },
     value: {
-      control: { type: 'text' }, 
+
+      control: { type: 'text' },
+
       description: 'ドロップダウンの値',
       table: {
         type: { summary: 'string' },
@@ -43,7 +47,9 @@ export default {
 } as ComponentMeta<typeof Dropdown>
 
 const Template: ComponentStory<typeof Dropdown> = (args) => (
-  <Dropdown {...args}/>
+
+  <Dropdown {...args} />
+
 )
 
 export const Normal = Template.bind({})
@@ -52,9 +58,12 @@ Normal.args = {
     { value: null, label: '-' },
     { value: 'one', label: 'One' },
     { value: 'two', label: 'Two' },
-    { value: 'three', label: 'Three' }, 
+
+    { value: 'three', label: 'Three' },
   ],
-  placeholder: 'please select items from the list', 
+  placeholder: 'please select items from the list',
+
+
 }
 
 //初期値を設定
@@ -68,7 +77,7 @@ InitialValue.args = {
   ],
   placeholder: 'Please select items from the list',
   value: 'one',
-  
+
 }
 
 
@@ -76,7 +85,9 @@ InitialValue.args = {
 export const Many = Template.bind({})
 Many.args = {
   options: Array.from(Array(20), (_v, k) => {
-    return { value: k.toString(), label: k.toString()}
+
+    return { value: k.toString(), label: k.toString() }
   }),
   placeholder: 'Please select items from the list',
 }
+
