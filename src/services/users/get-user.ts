@@ -13,7 +13,7 @@ export type GetUserParams = {
  * @params context APIコンテキスト
  * @params params パラメータ
  * @returns ユーザー
- * 
+ *
  */
 
 const getUser = async (
@@ -32,14 +32,14 @@ const getUser = async (
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
    }
    */
-  return await fetcher (
+  return await fetcher(
     `${context.apiRootUrl.replace(/\/$/g, '')}/users/${id}`,
     {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-      }
-    }
+      },
+    },
   )
 }
 
